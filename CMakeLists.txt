@@ -3,4 +3,4 @@ project(LWCC C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(LWCC main.c util.h)
+add_executable(LWCC src/main.c src/util.h src/util.c)
